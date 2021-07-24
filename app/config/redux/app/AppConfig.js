@@ -1,0 +1,4 @@
+export default {
+  SET_LOADING: 'SET_LOADING',
+  SET_SNACK_BAR: 'SET_SNACK_BAR'
+}
