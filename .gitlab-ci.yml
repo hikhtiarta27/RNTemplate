@@ -1,0 +1,17 @@
+image: node:14.15.4
+cache: 
+    paths: 
+        - node_modules/
+stages:
+    - dev
+    - production
+dev:
+    stage: dev
+    script:         
+        - echo "Build UAT"
+        - rm -rf node_modules/
+        - npm i
+production:
+    stage: production
+    script: 
+        - echo "Build Production"        
