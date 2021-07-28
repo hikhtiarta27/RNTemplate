@@ -31,7 +31,7 @@ const Styles = StyleSheet.create({
     color: _color.red
   },
   icon:{
-
+    color: _color.black
   }
 })
 

@@ -11,7 +11,8 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		80D022D9288C3AA027EA3C93 /* libPods-jne.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CAC3D19777B8E78AEB9B531C /* libPods-jne.a */; };
+		22EAB8B8ADE6FEADFE4BBCBC /* libPods-jne.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A731C47292BC71346C956AB5 /* libPods-jne.a */; };
+		5243539D83C89AF4B1A7B5AF /* libPods-jne-jneTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DAA9712C53C33D9B2EBA5A23 /* libPods-jne-jneTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		9E1A3D8626A94B8700D4438D /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 23CAB9A66AFF454A9E593FEE /* Roboto-Black.ttf */; };
 		9E1A3D8726A94B8700D4438D /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 642DC337C1F94CFEA7DA752B /* Roboto-BlackItalic.ttf */; };
@@ -25,7 +26,6 @@
 		9E1A3D8F26A94B8700D4438D /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6DD8329F1DE84496B9E4E1F6 /* Roboto-Regular.ttf */; };
 		9E1A3D9026A94B8700D4438D /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AAB7EB5160B2468BB66B3BAE /* Roboto-Thin.ttf */; };
 		9E1A3D9126A94B8700D4438D /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D360911BDA2D41E58582536A /* Roboto-ThinItalic.ttf */; };
-		AFF94BD6D4BB444409F49002 /* libPods-jne-jneTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 44964D0F72EB626C7E758C7C /* libPods-jne-jneTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,31 +55,31 @@
 		23CAB9A66AFF454A9E593FEE /* Roboto-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Black.ttf"; path = "../app/assets/fonts/roboto/Roboto-Black.ttf"; sourceTree = "<group>"; };
 		2433112DFD014548B5E18088 /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
 		257C6955C3524D1D8747CD3D /* Fontisto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Fontisto.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf"; sourceTree = "<group>"; };
-		2DA1C7C26CA00BAC30C2DC24 /* Pods-jne-jneTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jne-jneTests.release.xcconfig"; path = "Target Support Files/Pods-jne-jneTests/Pods-jne-jneTests.release.xcconfig"; sourceTree = "<group>"; };
 		3135EA2C9724456D9B3A840B /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-LightItalic.ttf"; path = "../app/assets/fonts/roboto/Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
-		44964D0F72EB626C7E758C7C /* libPods-jne-jneTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-jne-jneTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C75E317239941618DA4667C /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Brands.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; };
 		4CAF768F4DE9419FB6407F0D /* Feather.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Feather.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; };
 		4FB7531151FA41D4AC1B6C5A /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
-		543DC92E3EFC6D61D01026C6 /* Pods-jne.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jne.release.xcconfig"; path = "Target Support Files/Pods-jne/Pods-jne.release.xcconfig"; sourceTree = "<group>"; };
 		60F5714C4D36479B8F6BB8AF /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-BoldItalic.ttf"; path = "../app/assets/fonts/roboto/Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
+		62FBAAB1A8E576F2AA478097 /* Pods-jne-jneTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jne-jneTests.release.xcconfig"; path = "Target Support Files/Pods-jne-jneTests/Pods-jne-jneTests.release.xcconfig"; sourceTree = "<group>"; };
 		642DC337C1F94CFEA7DA752B /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-BlackItalic.ttf"; path = "../app/assets/fonts/roboto/Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
 		64CA7E3D564A4D5E91D73705 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialCommunityIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
 		67D08A54CFDE459B99B44E88 /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
 		6A85C99CF6224759B6078B01 /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
 		6DD8329F1DE84496B9E4E1F6 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Regular.ttf"; path = "../app/assets/fonts/roboto/Roboto-Regular.ttf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = jne/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		8E6A2136101C94BE0150301D /* Pods-jne-jneTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jne-jneTests.debug.xcconfig"; path = "Target Support Files/Pods-jne-jneTests/Pods-jne-jneTests.debug.xcconfig"; sourceTree = "<group>"; };
 		94A6337EA9664A0AAC782E2F /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-MediumItalic.ttf"; path = "../app/assets/fonts/roboto/Roboto-MediumItalic.ttf"; sourceTree = "<group>"; };
 		9CD5DBBFAD474570B51B9B27 /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
 		A17CE8A0459644E2B2E4AB7B /* Roboto-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Light.ttf"; path = "../app/assets/fonts/roboto/Roboto-Light.ttf"; sourceTree = "<group>"; };
-		A1DF67471D9B008C028A6A10 /* Pods-jne.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jne.debug.xcconfig"; path = "Target Support Files/Pods-jne/Pods-jne.debug.xcconfig"; sourceTree = "<group>"; };
+		A731C47292BC71346C956AB5 /* libPods-jne.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-jne.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7897C82D83CF643E4906748 /* Pods-jne-jneTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jne-jneTests.debug.xcconfig"; path = "Target Support Files/Pods-jne-jneTests/Pods-jne-jneTests.debug.xcconfig"; sourceTree = "<group>"; };
 		AAB7EB5160B2468BB66B3BAE /* Roboto-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Thin.ttf"; path = "../app/assets/fonts/roboto/Roboto-Thin.ttf"; sourceTree = "<group>"; };
 		B434D5513DF541579E9B85E0 /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
-		CAC3D19777B8E78AEB9B531C /* libPods-jne.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-jne.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0781991716E5F492D6BF872 /* Pods-jne.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jne.debug.xcconfig"; path = "Target Support Files/Pods-jne/Pods-jne.debug.xcconfig"; sourceTree = "<group>"; };
 		CE13EE4519EC4737A959D934 /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
+		CFC0F91E1337776717374EFC /* Pods-jne.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jne.release.xcconfig"; path = "Target Support Files/Pods-jne/Pods-jne.release.xcconfig"; sourceTree = "<group>"; };
 		D2BFECDEA97A4911A7E77996 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
 		D360911BDA2D41E58582536A /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-ThinItalic.ttf"; path = "../app/assets/fonts/roboto/Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
+		DAA9712C53C33D9B2EBA5A23 /* libPods-jne-jneTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-jne-jneTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA804ED3AF8F43818C29174F /* Roboto-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Italic.ttf"; path = "../app/assets/fonts/roboto/Roboto-Italic.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		EF51E403A2534221B02FD40D /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Solid.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; };
@@ -91,7 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AFF94BD6D4BB444409F49002 /* libPods-jne-jneTests.a in Frameworks */,
+				5243539D83C89AF4B1A7B5AF /* libPods-jne-jneTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,7 +99,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80D022D9288C3AA027EA3C93 /* libPods-jne.a in Frameworks */,
+				22EAB8B8ADE6FEADFE4BBCBC /* libPods-jne.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,8 +140,8 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				CAC3D19777B8E78AEB9B531C /* libPods-jne.a */,
-				44964D0F72EB626C7E758C7C /* libPods-jne-jneTests.a */,
+				A731C47292BC71346C956AB5 /* libPods-jne.a */,
+				DAA9712C53C33D9B2EBA5A23 /* libPods-jne-jneTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -149,10 +149,10 @@
 		7D1F07CA7F21DBBF4DB8BF21 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				A1DF67471D9B008C028A6A10 /* Pods-jne.debug.xcconfig */,
-				543DC92E3EFC6D61D01026C6 /* Pods-jne.release.xcconfig */,
-				8E6A2136101C94BE0150301D /* Pods-jne-jneTests.debug.xcconfig */,
-				2DA1C7C26CA00BAC30C2DC24 /* Pods-jne-jneTests.release.xcconfig */,
+				C0781991716E5F492D6BF872 /* Pods-jne.debug.xcconfig */,
+				CFC0F91E1337776717374EFC /* Pods-jne.release.xcconfig */,
+				A7897C82D83CF643E4906748 /* Pods-jne-jneTests.debug.xcconfig */,
+				62FBAAB1A8E576F2AA478097 /* Pods-jne-jneTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -231,12 +231,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "jneTests" */;
 			buildPhases = (
-				E5257DE5214BE577DA057DA9 /* [CP] Check Pods Manifest.lock */,
+				872105715C4D853F12F1E26C /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				A61A66AE6F656DF34A5CD6DC /* [CP] Embed Pods Frameworks */,
-				A3950CF17616E520D4CF4DC3 /* [CP] Copy Pods Resources */,
+				CEB7E2ADC7A1A3BD32978779 /* [CP] Embed Pods Frameworks */,
+				890EEEF396303FE490D67FE7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -252,14 +252,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "jne" */;
 			buildPhases = (
-				5C40619C4605E673A4AFB713 /* [CP] Check Pods Manifest.lock */,
+				77D4184414FDA4819E051523 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				9692E0024270A78083F95B82 /* [CP] Embed Pods Frameworks */,
-				83A42792DA4A64AC93AAB502 /* [CP] Copy Pods Resources */,
+				62D92BBB6F4E808B9AF32665 /* [CP] Embed Pods Frameworks */,
+				F5F78F26EE419B2F94FE554D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -276,7 +276,7 @@
 		83CBB9F71A601CBA00E9B192 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1210;
+				LastUpgradeCheck = 1250;
 				TargetAttributes = {
 					00E356ED1AD99517003FC87E = {
 						CreatedOnToolsVersion = 6.2;
@@ -352,7 +352,24 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
 		};
-		5C40619C4605E673A4AFB713 /* [CP] Check Pods Manifest.lock */ = {
+		62D92BBB6F4E808B9AF32665 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-jne/Pods-jne-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-jne/Pods-jne-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-jne/Pods-jne-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		77D4184414FDA4819E051523 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -374,75 +391,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		83A42792DA4A64AC93AAB502 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-jne/Pods-jne-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-jne/Pods-jne-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-jne/Pods-jne-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		9692E0024270A78083F95B82 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-jne/Pods-jne-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-jne/Pods-jne-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-jne/Pods-jne-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A3950CF17616E520D4CF4DC3 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-jne-jneTests/Pods-jne-jneTests-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-jne-jneTests/Pods-jne-jneTests-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-jne-jneTests/Pods-jne-jneTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A61A66AE6F656DF34A5CD6DC /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-jne-jneTests/Pods-jne-jneTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-jne-jneTests/Pods-jne-jneTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-jne-jneTests/Pods-jne-jneTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E5257DE5214BE577DA057DA9 /* [CP] Check Pods Manifest.lock */ = {
+		872105715C4D853F12F1E26C /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -462,6 +411,57 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		890EEEF396303FE490D67FE7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-jne-jneTests/Pods-jne-jneTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-jne-jneTests/Pods-jne-jneTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-jne-jneTests/Pods-jne-jneTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CEB7E2ADC7A1A3BD32978779 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-jne-jneTests/Pods-jne-jneTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-jne-jneTests/Pods-jne-jneTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-jne-jneTests/Pods-jne-jneTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5F78F26EE419B2F94FE554D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-jne/Pods-jne-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-jne/Pods-jne-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-jne/Pods-jne-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -516,15 +516,16 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8E6A2136101C94BE0150301D /* Pods-jne-jneTests.debug.xcconfig */;
+			baseConfigurationReference = A7897C82D83CF643E4906748 /* Pods-jne-jneTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = jneTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -543,12 +544,13 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2DA1C7C26CA00BAC30C2DC24 /* Pods-jne-jneTests.release.xcconfig */;
+			baseConfigurationReference = 62FBAAB1A8E576F2AA478097 /* Pods-jne-jneTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
 				INFOPLIST_FILE = jneTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -567,12 +569,14 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A1DF67471D9B008C028A6A10 /* Pods-jne.debug.xcconfig */;
+			baseConfigurationReference = C0781991716E5F492D6BF872 /* Pods-jne.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2YT5AC94L4;
 				ENABLE_BITCODE = NO;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				INFOPLIST_FILE = jne/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -583,7 +587,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jne.rntemplate-demo";
 				PRODUCT_NAME = jne;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -593,11 +597,13 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 543DC92E3EFC6D61D01026C6 /* Pods-jne.release.xcconfig */;
+			baseConfigurationReference = CFC0F91E1337776717374EFC /* Pods-jne.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2YT5AC94L4;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				INFOPLIST_FILE = jne/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -608,7 +614,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jne.rntemplate-demo";
 				PRODUCT_NAME = jne;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -664,7 +670,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					/usr/lib/swift,
 					"$(inherited)",
@@ -722,7 +728,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					/usr/lib/swift,
 					"$(inherited)",

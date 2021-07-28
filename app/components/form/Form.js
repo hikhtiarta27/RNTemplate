@@ -26,7 +26,7 @@ let phoneNumberPattern = Yup.string()
   .transform(value => value.replace(/[^\d]/g, ''));
 
 function Form(props) {
-  const {listFields, onSubmit, trigger} = props;
+  const {listFields, onSubmit, trigger, reset} = props;
   const [focusField, setFocusField] = useState(null);
   const focusFieldRef = useRef([]);
 
@@ -104,6 +104,10 @@ function Form(props) {
     formik.handleSubmit();
   }, [trigger]);
 
+  useEffect(() => {    
+    formik.resetForm();
+  }, [reset]);  
+
   return (
     <>
       {listFields.map((item, index, arr) => (
@@ -170,10 +174,12 @@ Form.propTypes = {
   listFields: PropTypes.arrayOf(PropTypes.object),
   onSubmit: PropTypes.func,
   trigger: PropTypes.number,
+  reset: PropTypes.number
 };
 
 Form.defaultProps = {
   trigger: null,
+  reset: null,
 };
 
 export default Form;

@@ -5,8 +5,7 @@ import _style from './Styles';
 import _s from '../../styles';
 import _c from '../../styles/Color';
 
-function ButtonHighlight(props) {
-  const {text, type, children} = props;
+function ButtonHighlight({text, type, children, ...props}) {  
   return (
     <TouchableHighlight {...props} underlayColor={_c.grayEEE}>
       {children}

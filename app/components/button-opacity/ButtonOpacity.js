@@ -5,8 +5,7 @@ import PropTypes from 'prop-types';
 import _style from './Styles';
 import _s from '../../styles';
 
-function ButtonOpacity(props) {
-  const {text, type, style} = props;
+function ButtonOpacity({text, type, style, ...props}) {  
   return (
     <TouchableOpacity
       {...props}      

@@ -20,8 +20,8 @@ const drawerlist = [
   },
 ];
 
-function Drawer(props) {
-  const {navigation} = props;
+function Drawer(props) {  
+  const {navigation} = props
   const [currentDrawer, setCurrentDrawer] = useState(drawerlist[0].label);
 
   const drawerHandler = item => {
@@ -34,7 +34,7 @@ function Drawer(props) {
       <SafeAreaView style={_s.flex1}>
         {drawerlist.map((item, index) => (
           <DrawerItem
-            icon={({focused}) => (
+            icon={({focused, color}) => (
               <AntDesignIcon
                 name={item.icon}
                 size={Platform.OS == 'ios' ? iconSizeIos : iconSizeAndroid}
@@ -50,14 +50,14 @@ function Drawer(props) {
               />
             )}
             onPress={() => drawerHandler(item)}
-            style={_style.drawerItem}
+            style={_style.drawerItem}                      
           />
         ))}
         <View style={_s.flexJustifyEnd}>
           <DrawerItem
             label="Logout"
             style={_style.drawerItemLogout}
-            labelStyle={_style.labelLogout}
+            labelStyle={_style.labelLogout}                        
           />
         </View>
       </SafeAreaView>

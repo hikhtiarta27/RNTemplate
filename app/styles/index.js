@@ -37,6 +37,9 @@ const Styles = StyleSheet.create({
   mt35: {
     marginTop: 35,
   },
+  mr2: {
+    marginRight: 2,
+  },
   mr10: {
     marginRight: 10,
   },
@@ -91,6 +94,9 @@ const Styles = StyleSheet.create({
   ml35: {
     marginLeft: 35,
   },
+  padding8: {
+    padding: 8,
+  },
   padding10: {
     padding: 10,
   },
@@ -103,11 +109,17 @@ const Styles = StyleSheet.create({
   px10: {
     paddingHorizontal: 10,
   },
+  px18: {
+    paddingHorizontal: 18,
+  },
   px20: {
     paddingHorizontal: 20,
   },
   py5: {
-    paddingHorizontal: 5,
+    paddingVertical: 5,
+  },
+  py8: {
+    paddingVertical: 8,
   },
   py15: {
     paddingVertical: 15,

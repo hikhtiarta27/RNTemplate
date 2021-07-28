@@ -1,6 +1,7 @@
 import React, {useEffect, useState} from 'react';
 import {View, SafeAreaView} from 'react-native';
 import _style from './Styles';
+import _s from '../../styles'
 import {StatusBar, SnackBar, ButtonOpacity, Loading} from '..';
 import {setLoading, setSnackBar} from '../../config/redux/app/AppAction';
 import {useDispatch, useSelector} from 'react-redux';
@@ -13,10 +14,10 @@ function Container(props) {
   return (
     <View style={_style.container}>
       <StatusBar />
-      <SafeAreaView style={{flex: 1}}>
+      <SafeAreaView style={[_s.flex1, _s.bgWhite]}>
         {children}
         {app.snackBar.show && <SnackBar />}
-        <ButtonOpacity
+        {/* <ButtonOpacity
           text="tes"
           onPress={() =>
             dispatch(
@@ -28,7 +29,7 @@ function Container(props) {
             )
           }
         />
-        <ButtonOpacity text="tes1" onPress={() => dispatch(setLoading(true))} />
+        <ButtonOpacity text="tes1" onPress={() => dispatch(setLoading(true))} /> */}
         {app.loading && <Loading />}
       </SafeAreaView>
     </View>

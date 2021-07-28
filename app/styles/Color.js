@@ -6,5 +6,7 @@ export default {
   redBg: '#f9d1d2',
   redPastel: '#ff392e',
   gray: '#636363',
-  grayEEE: '#eee'
+  grayEEE: '#eee',
+  blue: '#2CB3FF',
+  blueDark: '#1e3278'
 }

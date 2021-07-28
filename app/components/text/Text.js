@@ -5,8 +5,8 @@ import _style from './Styles';
 import _typography from '../../styles/Typography'
 
 function MyText(props) {
-  const {style, value, type} = props;  
-  return <Text {...props} style={[_style.textStyle,
+  const {style, value, type, numberOfLines} = props;  
+  return <Text {...props} numberOfLines={numberOfLines} ellipsizeMode="tail" style={[_style.textStyle,
     type == 'h1' ? _typography.h1 : 
     type == 'h2' ? _typography.h2 : 
     type == 'h3' ? _typography.h3 : 
@@ -19,7 +19,8 @@ MyText.propTypes = {
   value: PropTypes.string.isRequired,
   type: PropTypes.string.isRequired,
   style: PropTypes.oneOfType([PropTypes.object, PropTypes.arrayOf(PropTypes.object)]),
-  onPress: PropTypes.func
+  onPress: PropTypes.func,
+  numberOfLines: PropTypes.number
 };
 
 MyText.defaultProps = {
