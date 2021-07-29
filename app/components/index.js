@@ -12,7 +12,7 @@ import SnackBar from './snack-bar/SnackBar'
 import Loading from './loading/Loading'
 import BottomTabs from './bottom-tabs/BottomTabs'
 import Table from './table/Table'
-const Skeleton = React.lazy(()=> import('react-native-skeleton-placeholder'))
+import Skeleton from './skeleton/Skeleton';
 
 export {
   Text,
