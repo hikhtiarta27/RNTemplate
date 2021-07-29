@@ -6,6 +6,8 @@ stages:
     - dev
     # - production
 dev:
+    only:
+        - master
     stage: dev
     script:                         
         - rm -rf node_modules/
