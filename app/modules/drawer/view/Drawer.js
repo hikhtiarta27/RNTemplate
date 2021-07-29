@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
 import { createDrawerNavigator } from '@react-navigation/drawer';
-import {Drawer as CustomDrawer, Form, Text, Container, ButtonOpacity,  Header, Table} from '../../../components'
+import {Drawer as CustomDrawer, Form, Text, Container, ButtonOpacity,  Header, Table, Skeleton} from '../../../components'
 import {
-  View
+  View,
 } from 'react-native'
 import { createStackNavigator } from '@react-navigation/stack';
 import { useNavigation } from '@react-navigation/native';
@@ -63,7 +63,7 @@ function Article(){
   return (
     <Container>
       <Header name="Article" drawer />
-      <View>
+      {/* <View>
         <Table 
           data={[
             {
@@ -178,9 +178,12 @@ function Article(){
               type: 'number',
             }
           ]}
-        />
-        {/* <DataTable /> */}
-      </View>
+        />        
+      </View> */}
+      <Skeleton isLoading={true} layout={[
+        {width: 220, height: 20, marginBottom: 6, borderRadius: 5, },
+        {width: 180, height: 20, marginBottom: 6 }
+      ]}/>
     </Container>
   );
 }
