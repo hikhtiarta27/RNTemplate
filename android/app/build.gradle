@@ -160,8 +160,8 @@ android {
                 keyPassword MYAPP_UPLOAD_KEY_PASSWORD
             }
         }
-        releaseAppCenter {
-                storeFile rootProject.file("app/RNTemplate.keystore")
+        releaseSigningConfig {
+                storeFile rootProject.file("app/testapp.jks")
                 storePassword System.getProperty("APPCENTER_KEYSTORE_PASSWORD")
                 keyAlias System.getProperty("APPCENTER_KEY_ALIAS")
                 keyPassword System.getProperty("APPCENTER_KEY_PASSWORD")
@@ -176,7 +176,7 @@ android {
             // see https://reactnative.dev/docs/signed-apk-android.
             // signingConfig signingConfigs.debug
             // signingConfig signingConfigs.release
-            signingConfig signingConfigs.releaseAppCenter
+            signingConfig signingConfigs.releaseSigningConfig
             minifyEnabled enableProguardInReleaseBuilds
             proguardFiles getDefaultProguardFile("proguard-android.txt"), "proguard-rules.pro"
         }
