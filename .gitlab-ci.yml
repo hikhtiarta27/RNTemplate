@@ -7,11 +7,14 @@ stages:
     # - production
 dev:
     stage: dev
-    script:         
-        - echo "Build UAT"
-        - echo $CI_PROJECT_NAME-$CI_COMMIT_REF_NAME
-        # - rm -rf node_modules/
-        # - npm i
+    script:                         
+        - rm -rf node_modules/
+        - npm i
+        - cd android && ./gradlew assembleRelease -PAPPCENTER_KEYSTORE_PASSWORD=270498350498Hx! -PAPPCENTER_KEY_ALIAS=RNTemplate -PAPPCENTER_KEY_PASSWORD=270498350498Hx!
+        - cp android/app/build/outputs/apk/app-release.apk $CI_PROJECT_NAME-$CI_COMMIT_REF_NAME.apk
+    artifacts:        
+        paths:
+            - $CI_PROJECT_NAME-$CI_COMMIT_REF_NAME.apk
 # production:
 #     stage: production
 #     script: 
