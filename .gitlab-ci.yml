@@ -4,14 +4,15 @@ cache:
         - node_modules/
 stages:
     - dev
-    - production
+    # - production
 dev:
     stage: dev
     script:         
         - echo "Build UAT"
-        - rm -rf node_modules/
-        - npm i
-production:
-    stage: production
-    script: 
-        - echo "Build Production"        
+        - echo $CI_PROJECT_NAME-$CI_COMMIT_REF_NAME
+        # - rm -rf node_modules/
+        # - npm i
+# production:
+#     stage: production
+#     script: 
+#         - echo "Build Production"        
